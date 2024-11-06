@@ -1,0 +1,565 @@
+
+body {
+    margin: 0px;
+}
+
+header {
+    height: 110px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.combo {
+    font-size: 26px;
+    font-weight: 800;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-section {
+    position: relative;
+    background: url('/mars1.png') no-repeat center center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    /* Position the overlay */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    /* Black with 50% opacity */
+    z-index: 1;
+    /* Position it behind the text */
+}
+
+h1 {
+    color: white;
+    margin: 0px;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    z-index: 2;
+}
+
+.hero-text {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+    z-index: 2;
+}
+
+.base {
+    color: white;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 95%;
+}
+
+.fonty {
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 1.8px;
+}
+
+.p-base {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.base img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.section2{
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2024/10/wallpaper-zombie-worlds.jpeg');
+    position: relative;
+    background-size: cover;
+    height: 1000px;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.text{
+    margin-top: 400px;
+    margin-left: 65px;
+}
+.text > h1 {
+    width: 30%;
+    text-align: start;
+}
+
+.text > p {
+    padding-top: 70px;
+    width: 40%;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+    z-index: 2;
+}
+
+.text > h2 {
+    padding-top: 25px;
+    color: white;
+    font-size: 32px;
+}
+
+.medi1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box3 {
+  background-image: url('https://science.nasa.gov/wp-content/uploads/2023/06/lp79118d-beautyshot-jpg.webp');
+  position: relative;
+  background-size: cover;
+  height: 540px;
+  width: 347px;
+  display: flex;
+  overflow: hidden; 
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 {
+    background-image: url('/blackhole1.jpg');
+    position: relative;
+    background-size: cover;
+    height: 540px;
+    width: 347px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box5 {
+    background-image: url('https://science.nasa.gov/wp-content/uploads/2023/06/spiral-galaxy-jpg.webp');
+    position: relative;
+    background-size: cover;
+    height: 540px;
+    width: 347px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box6 {
+    background-image: url('https://science.nasa.gov/wp-content/uploads/2023/06/coma-cluster-jpg.webp');
+    position: relative;
+    background-size: cover;
+    height: 540px;
+    width: 347px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bigimg {
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2024/10/naaurora-vir2-20241011-lrg.jpg?resize=1638,2048');
+    position: relative;
+    background-size: cover;
+    height: 1000px;
+    width: 99%;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .text1 {
+    margin-top: 200px;
+    margin-left: 65px;
+  }
+
+  .text1 > h1 {
+    width: 30%;
+    text-align: start;
+    font-weight: 900;
+}
+
+.text1 > p {
+    padding-top: 70px;
+    width: 40%;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+    z-index: 2;
+}
+
+.text1 > h2 {
+    padding-top: 25px;
+    color: white;
+    font-size: 32px;
+}
+
+.section4 {
+    display: flex;
+    margin-left: 30px;
+}
+
+.box7 > p4 {
+    font-family: "Karla", sans-serif;
+    letter-spacing: 1.8px;
+    font-size: 15px;
+    color: black;
+}
+
+.box7 > h1 {
+    color: black;
+    font-size: 53px;
+    font-weight: 1000;
+    width: 80%;
+    text-align: left;
+}
+
+.box7 > h2 {
+    font-size: 29px;
+    font-weight: 700;
+    padding-top: 65px;
+}
+
+.box7 > p {
+    font-size: 21px;
+    font-weight: 500;
+    width: 45%;
+}
+
+.box8 > img {
+    width: 850px;
+    height: 500px;
+    margin-right: 50px;
+}
+
+.section5 > h1 {
+    color: black;
+    font-size: 53px;
+    font-weight: 1000;
+    width: 80%;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+   margin-top: 60px;
+   margin-left: 20px;
+}
+
+.collection{
+    display: flex;
+    row-gap: 6px;
+    column-gap: 5px;
+}
+
+.subcase{
+    display: flex;
+    flex-direction: column;
+}
+
+.case > img {
+    height: 245px;
+    width: 300px;
+}
+
+.case1 > img {
+    height: 120px;
+    width: 150px;
+}
+
+.block > p4 {
+    font-family: "Karla", sans-serif;
+    letter-spacing: 1.8px;
+    font-size: 15px;
+    color: rgb(40, 39, 39);
+    padding: 0px;
+    margin: 0px;
+}
+
+.section6{
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=2000,1561');
+    position: relative;
+    background-size: cover;
+    height: 720px;
+    width: 99%;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.text2{
+    margin-left: 65px;
+    margin-top: 130px;
+    padding-bottom: 16px;
+}
+
+.text2 > p {
+    padding-top: 70px;
+    width: 40%;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+    z-index: 2;
+}
+
+.text2 > h2 {
+    padding-top: 25px;
+    color: white;
+    font-size: 32px;
+}
+
+.overlay1{
+    position: absolute;
+    /* Position the overlay */
+    border: 1px solid black;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    /* Black with 50% opacity */
+    z-index: 1;
+}
+
+.box9 {
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2022/08/jsc2022e046413_orig.jpg?resize=1200,675');
+    position: relative;
+    background-size: cover;
+    height: 520px;
+    width: 350px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.box10 {
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2021/03/topic-humans-in-space.jpg');
+    position: relative;
+    background-size: cover;
+    height: 520px;
+    width: 350px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.box11 {
+    background-image: url('https://science.nasa.gov/wp-content/uploads/2023/06/icescapepondsample-lrg-jpg.webp');
+    position: relative;
+    background-size: cover;
+    height: 520px;
+    width: 350px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.box12 {
+    background-image: url('https://smd-cms.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg');
+    position: relative;
+    background-size: cover;
+    height: 520px;
+    width: 350px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.box13 {
+    background-image: url('https://science.nasa.gov/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg');
+    position: relative;
+    background-size: cover;
+    height: 520px;
+    width: 350px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.box14 {
+    background-image: url('https://science.nasa.gov/wp-content/uploads/2023/07/stsci-01h44ay5ztcv1npb227b2p650j-temp.png');
+    position: relative;
+    background-size: cover;
+    height: 520px;
+    width: 350px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.box15 {
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2022/12/aero-topic-card.jpg');
+    position: relative;
+    background-size: cover;
+    height: 520px;
+    width: 350px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.box16 {
+    background-image: url('https://www.nasa.gov/wp-content/uploads/2022/12/nasa_technology1.png');
+    position: relative;
+    background-size: cover;
+    height: 520px;
+    width: 350px;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+footer{
+    background-color: rgb(4, 1, 22);
+    height: 800px;
+    width: 99%;
+}
+
+.top > img {
+    margin-top: 60px;
+    margin-left: 65px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.middle1 > h2 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.middle1 > p {
+   color: #b9b9bb;
+   font-size: 20px;
+   margin-top: 5px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   margin-bottom: 0px;
+}
+
+.middle1 > p4 {
+    color: white;
+    font-size: 20px;
+}
+
+.middle2 > p {
+    color: white;
+    font-size: 20px; 
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.middle3 > h3 {
+    color: rgb(173, 166, 166);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.middle3 > p {
+    color: white;
+    font-size: 20px; 
+    padding: 0px;
+    margin: 0px;
+}
+
+.bottom{
+    color: rgb(173, 166, 166);
+}
+
+.lines{
+   padding-left: 60px; 
+   padding-top: 50px;
+}
+
+.lines > p4 {
+    padding-right: 35px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.linesbott{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+.xyz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+}
+
+.xyz > p {
+    padding-right: 11px;
+    font-size: 22px;
+    font-weight: 400;
+}
