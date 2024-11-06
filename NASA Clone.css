@@ -24,7 +24,7 @@ header {
 
 .hero-section {
     position: relative;
-    background: url('/mars1.png') no-repeat center center;
+    background: url('mars1.png') no-repeat center center;
     background-size: cover;
     height: 800px;
     width: 100%;
@@ -152,7 +152,7 @@ h1 {
 }
 
 .box4 {
-    background-image: url('/blackhole1.jpg');
+    background-image: url('blackhole1.jpg');
     position: relative;
     background-size: cover;
     height: 540px;
